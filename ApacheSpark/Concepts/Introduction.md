@@ -40,7 +40,6 @@ Principais Diferenças:
 #### 2. Apache Spark Platform
 The following components are part of the platform:
 ![img](https://github.com/daniellj/DistributedComputing/blob/master/ApacheSpark/Concepts/img/apache-spark-platform.png)
-
 	* 2.1. SparkSQL
 	* 2.2. Spark Streaming
 		  In this component, Spark receive DATA INGESTION through a variety of sources, and could process this data with complex algorithms and/or high-level functions (map, reduction, join and window). Internally, receives the data in real time and splits it into batches, where these are processed by the Spark Engine, generating the output of this processing , that may be a disk recording on file systems (HDFS), write records to the database, or real-time dashboards.
@@ -68,7 +67,6 @@ The following components are part of the architecture:
 
 #### 4. RDD's - Resilient Distributed Datasets
 Is an immutable distributed collection of objects (read-only). Each RDD is split into multiple partitions, which may be computed on different nodes of the cluster (distributed data processing). Type of objects that RDD may contain: Scala, Python, Java or user-defined classes.
-
 	* 4.1. Resilient -> fault-tolerant: recompute missing or damaged partitions due to node failures.
 	* 4.2. Distributed -> data residing on multiple nodes in a cluster.
 	* 4.3. Dataset -> is a collection of partitioned data with primitive values.
