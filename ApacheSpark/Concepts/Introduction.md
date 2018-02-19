@@ -57,7 +57,9 @@ It also provides a high level abstraction called discrete flow (DStream), which 
 The following components are part of the architecture:
 - 3.1. SparkContext
 Context represents the CONNECTION to a Spark cluster, and can be used to create RDDs, accumulators and broadcast variables on that cluster. For default, only one SparkContext may be active per JVM, but can be removed.
+
 ![img](https://github.com/daniellj/DistributedComputing/blob/master/ApacheSpark/Concepts/img/apache-spark-arch.png)
+
 - 3.2. Cluster Manager
 - 3.3. Workers Node
 - 3.3.1. Executor
@@ -76,5 +78,7 @@ RDDs support two kinds of operations:
 - Actions - operations that trigger computation and return values.
 
 Credits: https://spark.apache.org
+
 		 https://github.com/rklick-solutions/spark-tutorial/wiki/Spark-Core#introduction-to-apache-spark
+
 		 https://jaceklaskowski.gitbooks.io/mastering-apache-spark/
