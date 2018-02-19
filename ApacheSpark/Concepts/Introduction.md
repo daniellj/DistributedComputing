@@ -77,8 +77,10 @@ RDDs support two kinds of operations:
 - Transformations - lazy operations that return another RDD.
 - Actions - operations that trigger computation and return values.
 
-Credits: https://spark.apache.org
+Credits:
 
-		 https://github.com/rklick-solutions/spark-tutorial/wiki/Spark-Core#introduction-to-apache-spark
+https://spark.apache.org
 
-		 https://jaceklaskowski.gitbooks.io/mastering-apache-spark/
+https://github.com/rklick-solutions/spark-tutorial/wiki/Spark-Core#introduction-to-apache-spark
+
+https://jaceklaskowski.gitbooks.io/mastering-apache-spark/
