@@ -51,13 +51,13 @@ Internamente, Spark Streaming recebe os dados em tempo real e divide-os em lotes
 Spark Streaming fornece uma abstração de alto nível chamada fluxo discretizado (DStream), que representa um fluxo contínuo de dados.
 ![img](https://github.com/daniellj/DistributedComputing/blob/master/ApacheSpark/Concepts/img/apache-spark-streaming-flow.png)
 
-#### 1.3. RDD's - Resilient Distributed Datasets
+#### 1.3. SparkContext
+Context represents the CONNECTION to a Spark cluster, and can be used to create RDDs, accumulators and broadcast variables on that cluster. For default, only one SparkContext may be active per JVM, but can be removed.
+![img](https://github.com/daniellj/DistributedComputing/blob/master/ApacheSpark/Concepts/img/apache-spark-context.png)
+
+#### 1.4. RDD's - Resilient Distributed Datasets
 São coleções de objetos IMUTÁVEIS.
 
-#### 1.4. SparkContext
-
-
 #### 1.5. RDD transformations
-
 
 Créditos: https://spark.apache.org/docs/latest/streaming-programming-guide.html

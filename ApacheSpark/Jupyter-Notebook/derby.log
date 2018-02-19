@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Mon Feb 19 16:41:57 BRT 2018:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.12.1.1 - (1704137): instance a816c00e-0161-af96-4a2d-000008990180 
+on database directory C:\Users\whitecube.daniel\Projetos_Daniel\DistributedComputing\ApacheSpark\Jupyter-Notebook\metastore_db with class loader org.apache.spark.sql.hive.client.IsolatedClientLoader$$anon$1@2d5a1a2c 
+Loaded from file:/C:/Spark/jars/derby-10.12.1.1.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_151-b12
+user.dir=C:\Users\whitecube.daniel\Projetos_Daniel\DistributedComputing\ApacheSpark\Jupyter-Notebook
+os.name=Windows 7
+os.arch=amd64
+os.version=6.1
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
