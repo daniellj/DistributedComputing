@@ -10,4 +10,4 @@ I created this repository for develop my skills with distributed computing, and 
 
 <!-- toc -->
   * 1. Introduction
-		* [Definition, Architecture, Flow, RDD's - Resilient Distributed Datasets, RDD transformations](https://github.com/daniellj/DistributedComputing/ApacheSpark/Concepts/Introduction.md)
+		* [Definition, Architecture, Flow, RDD's - Resilient Distributed Datasets, RDD transformations](https://github.com/daniellj/DistributedComputing/blob/master/ApacheSpark/Concepts/Introduction.md)
