@@ -77,7 +77,7 @@ Context represents the CONNECTION to a Spark cluster, and can be used to create 
 	
 - 3.3. Workers Node
 
-	- **3.3.1. Executor
+	- **3.3.1. Executor**
 
 	- Cache
 
