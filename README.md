@@ -10,20 +10,20 @@ I created this repository for develop my skills with DISTRIBUTED COMPUTING, and 
 
 ### Topics
 <!-- toc -->
-* 1. Introduction
-* 2. Hadoop Platform
-* 3. Hadoop Architecture
-* 4. MapReduce Operation
-* [5. MapReduce - POC](https://github.com/daniellj/DistributedComputing/blob/master/HadoopMapReduce/POC/)
+- 1. Introduction
+- 2. Hadoop Platform]
+- 3. Hadoop Architecture
+- 4. MapReduce Operation
+- [5. MapReduce - POC](https://github.com/daniellj/DistributedComputing/blob/master/HadoopMapReduce/POC/)
 
 ## Apache Spark ![img](https://github.com/daniellj/DistributedComputing/blob/master/ApacheSpark/Concepts/img/apache_spark_logo.png)
 
 ### Topics
 <!-- toc -->
-* [1. Introdutction](https://github.com/daniellj/DistributedComputing/blob/master/ApacheSpark/Concepts/Introduction.md#1-introdutction)
-* [2. Apache Spark Platform](https://github.com/daniellj/DistributedComputing/blob/master/ApacheSpark/Concepts/Introduction.md#2-apache-spark-platform)
-* [3. Apache Spark Architecture](https://github.com/daniellj/DistributedComputing/blob/master/ApacheSpark/Concepts/Introduction.md#3-apache-spark-architecture)
-* [4. Data Sources and Formats to Consume](https://github.com/daniellj/DistributedComputing/blob/master/ApacheSpark/Concepts/Introduction.md#4-data-sources-and-formats-to-consume)
-* [5. Deploy Mode](https://github.com/daniellj/DistributedComputing/blob/master/ApacheSpark/Concepts/Introduction.md#5-deploy-mode)
-* [6. RDD's - Resilient Distributed Datasets](https://github.com/daniellj/DistributedComputing/blob/master/ApacheSpark/Concepts/Introduction.md#6-rdds---resilient-distributed-datasets)
-* [5. Apache Spark - POC](https://github.com/daniellj/DistributedComputing/blob/master/ApacheSpark/POC/)
+- [1. Introdutction](https://github.com/daniellj/DistributedComputing/blob/master/ApacheSpark/Concepts/Introduction.md#1-introdutction)
+- [2. Apache Spark Platform](https://github.com/daniellj/DistributedComputing/blob/master/ApacheSpark/Concepts/Introduction.md#2-apache-spark-platform)
+- [3. Apache Spark Architecture](https://github.com/daniellj/DistributedComputing/blob/master/ApacheSpark/Concepts/Introduction.md#3-apache-spark-architecture)
+- [4. Data Sources and Formats to Consume](https://github.com/daniellj/DistributedComputing/blob/master/ApacheSpark/Concepts/Introduction.md#4-data-sources-and-formats-to-consume)
+- [5. Deploy Mode](https://github.com/daniellj/DistributedComputing/blob/master/ApacheSpark/Concepts/Introduction.md#5-deploy-mode)
+- [6. RDD's - Resilient Distributed Datasets](https://github.com/daniellj/DistributedComputing/blob/master/ApacheSpark/Concepts/Introduction.md#6-rdds---resilient-distributed-datasets)
+- [7. Apache Spark - POC](https://github.com/daniellj/DistributedComputing/blob/master/ApacheSpark/POC/)
