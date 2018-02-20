@@ -73,15 +73,15 @@ Context represents the CONNECTION to a Spark cluster, and can be used to create 
 
 ![img](https://github.com/daniellj/DistributedComputing/blob/master/ApacheSpark/Concepts/img/apache-spark-arch.png)
 
-       - 3.2. Cluster Manager
+- 3.2. Cluster Manager
 	
-       - 3.3. Workers Node
-	
-              - Executor
-		
-              - Cache
+- 3.3. Workers Node
 
-              - Task
+       * Executor
+
+       * Cache
+
+       * Task
 
 ## 4. Data Sources and Formats to Consume
 ![img](https://github.com/daniellj/DistributedComputing/blob/master/ApacheSpark/Concepts/img/apache-spark-datasource.png)
