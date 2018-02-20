@@ -102,14 +102,16 @@ Is an immutable distributed collection of objects (read-only). Each RDD is split
 
 ![img](https://github.com/daniellj/DistributedComputing/blob/master/ApacheSpark/Concepts/img/apache-spark-RDD.png)
 
-- **6.1. There are two ways to create RDDs:**
+- **6.1. There are two ways to CREATE RDDs:**
 	
 	- **6.1.1. Parallelizing** an existing collection in your driver program.
 		
 	- **6.1.2. Referencing** a external dataset (HDFS, RDBMS, NoSQL, S3)
 
 - **6.2. Support two kinds of operations:**
-	
+
+![img](https://github.com/daniellj/DistributedComputing/blob/master/ApacheSpark/Concepts/img/apache-spark-rdd-operations.png)
+
 	- **6.2.1. TRANSFORMATIONS** - create a new dataset from an existing one (lazy operations that return another RDD). Some of the common TRANSFORMATIONS supported:
 
 <table class="table">
