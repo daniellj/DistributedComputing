@@ -70,17 +70,17 @@ The following components are part of the architecture:
 
 - **3.1. SparkContext**: Context represents the **CONNECTION** to a Spark cluster, and can be used to create RDDs, accumulators and broadcast variables on that cluster. For default, only one SparkContext may be active per JVM, but can be removed.
 
+- **3.2. SparkDriver: an application written in Scala, Java, R or Python that uses Spark as a library. You can start one or more jobs in a cluster. He basically start a job, that will be run by WORKERS and managed by the CLUSTER MANAGER (coordinate and control all as parallel operations of the cluster).
+
 ![img](https://github.com/daniellj/DistributedComputing/blob/master/ApacheSpark/Concepts/img/apache-spark-arch.png)
 
-- **3.2. Cluster Manager**
+- **3.3. Cluster Manager (master)**: manager and send tasks to workers (slave node's).
 	
-- **3.3. Workers Node**
+- **3.4. Workers Node (slave)**: receive taks from cluster manager. Execute the aplicatives of Spark, and at the end of the task execution, the workers communicate the SparkContext which then displays the result to the SparkDriver.
 
-	- **3.3.1. Executor**
+	- **3.4.1. Executor**: is a JVM process that Spark create for each application. Execute the code of application simultily on various segments. Time to live of a  EXECUTOR = time to live of an application.
 
-	- **3.3.2. Cache**
-
-	- **3.3.3. Task**
+	- **3.4.2. Task**: the smaller unit of work that Spark sends to an EXECUTOR. Each task solves some calculation, which returns a result for the SparkDriver. Spark creates a task for each data partition for parallel processing.
 
 ## 4. Data Sources and Formats to Consume
 ![img](https://github.com/daniellj/DistributedComputing/blob/master/ApacheSpark/Concepts/img/apache-spark-datasources.png)
@@ -89,7 +89,7 @@ The following components are part of the architecture:
 
 - **5.1. Local (standalone or cluster)**
 	
-- **5.2. Clustering in the Cloud (Databricks, Amazon EC2, IBM Bluemix)**
+- **5.2. Clustering in the Cloud (Databricks, Amazon EC2, IBM Bluemix)**: for production system.
 
 ## 6. RDD's - Resilient Distributed Datasets
 Is an immutable distributed collection of objects (read-only). Each RDD is split into multiple partitions, which may be computed on different nodes of the cluster (distributed data processing). Type of objects that RDD may contain: Scala, Python, Java or user-defined classes.
