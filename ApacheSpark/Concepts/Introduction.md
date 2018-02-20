@@ -1,7 +1,7 @@
 ## Apache Spark
 
 <!-- toc -->
-### * 1. Introdutction
+### 1. Introdutction
 Highly scalable distributed data analysis system based on the shared use of the RAM memory of the nodes of a cluster as a processing source (in this mode, 100x faster than Hadoop MapReduce). Apache Spark also allows disk processing (in this mode, 10X faster than Hadoop MapReduce) in case there is not enough RAM memory in the cluster nodes to process the required amount of data.
 
 Comparative table Hadoop Map Reduce X Apache Spark:
