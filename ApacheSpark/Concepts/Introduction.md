@@ -49,7 +49,7 @@ The following components are part of the platform:
 
 ![img](https://github.com/daniellj/DistributedComputing/blob/master/ApacheSpark/Concepts/img/apache-spark-streaming-arch.png)
 
-       It also provides a high level abstraction called discrete flow (DStream), which represents a continuous flow of data.
+It also provides a high level abstraction called discrete flow (DStream), which represents a continuous flow of data.
 
 ![img](https://github.com/daniellj/DistributedComputing/blob/master/ApacheSpark/Concepts/img/apache-spark-streaming-flow.png)
 	
@@ -57,7 +57,7 @@ The following components are part of the platform:
 	
 - **2.4. GraphX**
 
-- **2.5. Spark Core
+- **2.5. Spark Core**
 
 - **2.6. Spark Standalone**
 
@@ -68,8 +68,7 @@ The following components are part of the platform:
 ## 3. Apache Spark Architecture
 The following components are part of the architecture:
 
-- **3.1. SparkContext**
-Context represents the CONNECTION to a Spark cluster, and can be used to create RDDs, accumulators and broadcast variables on that cluster. For default, only one SparkContext may be active per JVM, but can be removed.
+- **3.1. SparkContext**: Context represents the **CONNECTION** to a Spark cluster, and can be used to create RDDs, accumulators and broadcast variables on that cluster. For default, only one SparkContext may be active per JVM, but can be removed.
 
 ![img](https://github.com/daniellj/DistributedComputing/blob/master/ApacheSpark/Concepts/img/apache-spark-arch.png)
 
@@ -105,9 +104,9 @@ Is an immutable distributed collection of objects (read-only). Each RDD is split
 
 - **6.1. There are two ways to create RDDs:**
 	
-	- ** 6.1.1. Parallelizing** an existing collection in your driver program.
+	- **6.1.1. Parallelizing** an existing collection in your driver program.
 		
-	- ** 6.1.2. Referencing** a external dataset (HDFS, RDBMS, NoSQL, S3)
+	- **6.1.2. Referencing** a external dataset (HDFS, RDBMS, NoSQL, S3)
 
 - **6.2. Support two kinds of operations:**
 	
@@ -214,7 +213,7 @@ Is an immutable distributed collection of objects (read-only). Each RDD is split
 </tr>
 </table>
 
-	- **6.2.1. ACTIONS** - return a value to the driver program after running a computation on the dataset (map, reduce, etc). Some of the common ACTIONS supported:
+	- **6.2.2. ACTIONS** - return a value to the driver program after running a computation on the dataset (map, reduce, etc). Some of the common ACTIONS supported:
 
 <table class="table">
 <tr><th>Action</th><th>Meaning</th></tr>
