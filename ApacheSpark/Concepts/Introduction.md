@@ -81,11 +81,11 @@ Is an immutable distributed collection of objects (read-only). Each RDD is split
 ![img](https://github.com/daniellj/DistributedComputing/blob/master/ApacheSpark/Concepts/img/apache-spark-RDD.png)
 
 - 6.1. There are two ways to create RDDs:
-- 6.1.1. Parallelizing an existing collection in your driver program.
-- 6.1.2. Referencing a external dataset (HDFS, RDBMS, NoSQL, S3)
+- Parallelizing an existing collection in your driver program.
+- Referencing a external dataset (HDFS, RDBMS, NoSQL, S3)
 
 - 6.2. Support two kinds of operations:
-- 6.2.1. Transformations - create a new dataset from an existing one (lazy operations that return another RDD).
+- TRANSFORMATIONS - create a new dataset from an existing one (lazy operations that return another RDD).
 Some of the common TRANSFORMATIONS supported:
 
 <table class="table">
@@ -189,7 +189,7 @@ Some of the common TRANSFORMATIONS supported:
 </tr>
 </table>
 
-- 6.2.2. Actions - return a value to the driver program after running a computation on the dataset (map, reduce, etc).
+- ACTIONS - return a value to the driver program after running a computation on the dataset (map, reduce, etc).
 Some of the common ACTIONS supported:
 
 <table class="table">
