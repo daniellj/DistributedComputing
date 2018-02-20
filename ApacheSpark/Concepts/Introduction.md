@@ -83,7 +83,7 @@ The following components are part of the architecture:
 	- **3.3.3. Task**
 
 ## 4. Data Sources and Formats to Consume
-![img](https://github.com/daniellj/DistributedComputing/blob/master/ApacheSpark/Concepts/img/apache-spark-datasource.png)
+![img](https://github.com/daniellj/DistributedComputing/blob/master/ApacheSpark/Concepts/img/apache-spark-datasources.png)
 
 ## 5. Deploy Mode
 
