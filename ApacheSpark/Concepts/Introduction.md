@@ -213,6 +213,7 @@ Is an immutable distributed collection of objects (read-only). Each RDD is split
 </tr>
 </table>
 
+-
 	- **6.2.2. ACTIONS** - return a value to the driver program after running a computation on the dataset (map, reduce, etc). Some of the common ACTIONS supported:
 
 <table class="table">
