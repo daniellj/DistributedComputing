@@ -43,8 +43,9 @@ Comparative table Hadoop Map Reduce X Apache Spark:
 The following components are part of the platform:
 ![img](https://github.com/daniellj/DistributedComputing/blob/master/ApacheSpark/Concepts/img/apache-spark-platform.png)
 
-	* 2.1. SparkSQL	
-	* 2.2. Spark Streaming: in this component, Spark receive DATA INGESTION through a variety of sources, and could process this data with complex algorithms and/or high-level functions (map, reduction, join and window). Internally, receives the data in real time and splits it into batches, where these are processed by the Spark Engine, generating the output of this processing , that may be a disk recording on file systems (HDFS), write records to the database, or real-time dashboards.
+	- 2.1. SparkSQL
+	
+	- 2.2. Spark Streaming: in this component, Spark receive DATA INGESTION through a variety of sources, and could process this data with complex algorithms and/or high-level functions (map, reduction, join and window). Internally, receives the data in real time and splits it into batches, where these are processed by the Spark Engine, generating the output of this processing , that may be a disk recording on file systems (HDFS), write records to the database, or real-time dashboards.
 
 	![img](https://github.com/daniellj/DistributedComputing/blob/master/ApacheSpark/Concepts/img/apache-spark-streaming-arch.png)
 
@@ -52,9 +53,9 @@ The following components are part of the platform:
 
 	![img](https://github.com/daniellj/DistributedComputing/blob/master/ApacheSpark/Concepts/img/apache-spark-streaming-flow.png)
 	
-	* 2.3. MLlib
+	- 2.3. MLlib
 	
-	* 2.4. GraphX
+	- 2.4. GraphX
 	
 	* 2.5. Spark Core
 	
