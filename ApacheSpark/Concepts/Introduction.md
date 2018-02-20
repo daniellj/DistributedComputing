@@ -39,7 +39,7 @@ Comparative table Hadoop Map Reduce X Apache Spark:
    </body>
 </html>
 
-* 2. Apache Spark Platform
+### 2. Apache Spark Platform
 The following components are part of the platform:
 ![img](https://github.com/daniellj/DistributedComputing/blob/master/ApacheSpark/Concepts/img/apache-spark-platform.png)
 
