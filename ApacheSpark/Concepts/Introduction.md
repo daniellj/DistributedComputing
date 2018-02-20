@@ -1,8 +1,8 @@
 ## Apache Spark
 ### 1. Introdutction
-Definição: sistema para análise de dados com processamento distribuído, com alta escalabilidade, se apoiando principalmente do uso compartilhado da memória RAM dos nodos de um cluster como fonte de processamento (nesse modo, 100X + rápido que o Hadoop MapReduce). Lembrando que Apache Spark também permite processamento em disco (nesse modo, 10X + rápido que o Hadoop MapReduce), no caso de não haver memória RAM suficiente nos nodos do cluster para processar a quantidade necessária de dados.
+Highly scalable distributed data analysis system based on the shared use of the RAM memory of the nodes of a cluster as a processing source (in this mode, 100x faster than Hadoop MapReduce). Apache Spark also allows disk processing (in this mode, 10X faster than Hadoop MapReduce) in case there is not enough RAM memory in the cluster nodes to process the required amount of data.
 
-Principais Diferenças:
+Comparative table Hadoop Map Reduce X Apache Spark:
 
 <html>
    <body>
@@ -15,20 +15,20 @@ Principais Diferenças:
                      <th>Apache Spark</th>
                   </tr>
                   <tr>
-                     <td>Processamento em lote</td>
-                     <td>Processamento em lote, iterativo ou em processamento contínuo (streaming de dados)</td>
+                     <td>Batch processing</td>
+                     <td>Batch, iterative or continuous processing (data streaming)</td>
                   </tr>
                   <tr>
-                     <td>Utiliza o MapReduce para procesamento analítico, consistindo os dados em disco</td>
-                     <td>Realiza todas as operações analíticas necessárias em memória</td>
+                     <td>MapReduce for analytical processing, consisting of disk data/td>
+                     <td>Performs all necessary analytical operations in memory</td>
                   </tr>
                   <tr>
-                     <td>Armazena os resultados intermediários do processamento em DISCO</td>
-                     <td>Armazena os resultados intermediários do processamento em MEMÓRIA</td>
+                     <td>Stores intermediate processing results in DISK</td>
+                     <td>Stores intermediate processing results in RAM Memory</td>
                   </tr>
                   <tr>
-                     <td>HA: dados são gravados em disco depois de cada operação (mapeamento, redução, agrupamento, ...), distribuídos por todo o “cluster” de dados</td>
-                     <td>HA: cria objetos virtuais de dados que são armazenados em conjuntos de dados resilientes, distribuídos por todo o “cluster” de dados</td>
+                     <td>HA: data are written to disk after each operation (mapping, reduction, grouping, ...), distributed throughout the data cluster</td>
+                     <td>HA: create virtual data objects that are stored in resilient datasets, distributed throughout the data cluster</td>
                   </tr>
                </table>
             </td>
