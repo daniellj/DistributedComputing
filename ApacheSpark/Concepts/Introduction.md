@@ -43,7 +43,7 @@ Comparative table Hadoop Map Reduce X Apache Spark:
 The following components are part of the platform:
 ![img](https://github.com/daniellj/DistributedComputing/blob/master/ApacheSpark/Concepts/img/apache-spark-platform.png)
 
-- **2.1. SparkSQL**
+- **2.1. SparkSQL**: is a Spark module for structured data processing.
 	
 - **2.2. Spark Streaming**: in this component, Spark receive DATA INGESTION through a variety of sources, and could process this data with complex algorithms and/or high-level functions (map, reduction, join and window). Internally, receives the data in real time and splits it into batches, where these are processed by the Spark Engine, generating the output of this processing , that may be a disk recording on file systems (HDFS), write records to the database, or real-time dashboards.
 
@@ -53,17 +53,17 @@ It also provides a high level abstraction called discrete flow (DStream), which 
 
 ![img](https://github.com/daniellj/DistributedComputing/blob/master/ApacheSpark/Concepts/img/apache-spark-streaming-flow.png)
 	
-- **2.3. MLlib**
+- **2.3. MLlib**: is Spark’s machine learning (ML) library. Allows make practical machine learning scalable and easy.
 	
-- **2.4. GraphX**
+- **2.4. GraphX**: component in Spark for graphs and graph-parallel computation.
 
-- **2.5. Spark Core**
+- **2.5. Spark Core**: engine that provides distributed task dispatching, scheduling, and basic I/O functionalities.
 
-- **2.6. Spark Standalone**
+- **2.6. Spark Standalone**: run Spark in standalone mode.
 
-- **2.7. Hadoop Yarn**
+- **2.7. Hadoop Yarn**: resource management (computing: cluster, ...) and job scheduling/monitoring.
 
-- **2.8. Mesos**
+- **2.8. Mesos**: clusters management.
 
 ## 3. Apache Spark Architecture
 The following components are part of the architecture:
