@@ -49,7 +49,7 @@ The following components are part of the platform:
 
 ![img](https://github.com/daniellj/DistributedComputing/blob/master/ApacheSpark/Concepts/img/apache-spark-streaming-arch.png)
 
-It also provides a high level abstraction called discrete flow (DStream), which represents a continuous flow of data.
+       It also provides a high level abstraction called discrete flow (DStream), which represents a continuous flow of data.
 
 ![img](https://github.com/daniellj/DistributedComputing/blob/master/ApacheSpark/Concepts/img/apache-spark-streaming-flow.png)
 	
@@ -77,11 +77,11 @@ Context represents the CONNECTION to a Spark cluster, and can be used to create 
 	
 - 3.3. Workers Node
 	
--- 3.3.1. Executor
+       - 3.3.1. Executor
 		
--- 3.3.2. Cache
+       - 3.3.2. Cache
 
--- 3.3.3. Task
+       - 3.3.3. Task
 
 ## 4. Data Sources and Formats to Consume
 ![img](https://github.com/daniellj/DistributedComputing/blob/master/ApacheSpark/Concepts/img/apache-spark-datasource.png)
@@ -105,13 +105,13 @@ Is an immutable distributed collection of objects (read-only). Each RDD is split
 
 - 6.1. There are two ways to create RDDs:
 	
--- 6.1.1. Parallelizing an existing collection in your driver program.
+       - 6.1.1. Parallelizing an existing collection in your driver program.
 		
--- 6.1.2. Referencing a external dataset (HDFS, RDBMS, NoSQL, S3)
+       - 6.1.2. Referencing a external dataset (HDFS, RDBMS, NoSQL, S3)
 
 - 6.2. Support two kinds of operations:
 	
--- 6.2.1. TRANSFORMATIONS - create a new dataset from an existing one (lazy operations that return another RDD). Some of the common TRANSFORMATIONS supported:
+       - 6.2.1. TRANSFORMATIONS - create a new dataset from an existing one (lazy operations that return another RDD). Some of the common TRANSFORMATIONS supported:
 
 <table class="table">
 <tr><th style="width:25%">Transformation</th><th>Meaning</th></tr>
@@ -214,7 +214,7 @@ Is an immutable distributed collection of objects (read-only). Each RDD is split
 </tr>
 </table>
 
--- 6.2.2. ACTIONS - return a value to the driver program after running a computation on the dataset (map, reduce, etc). Some of the common ACTIONS supported:
+       - 6.2.2. ACTIONS - return a value to the driver program after running a computation on the dataset (map, reduce, etc). Some of the common ACTIONS supported:
 
 <table class="table">
 <tr><th>Action</th><th>Meaning</th></tr>
