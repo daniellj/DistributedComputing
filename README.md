@@ -10,10 +10,10 @@ I created this repository for develop my skills with DISTRIBUTED COMPUTING, and 
 
 ### Topics
 <!-- toc -->
-* [1. Introduction](https://github.com/daniellj/DistributedComputing/)
-* [2. Hadoop Platform](https://github.com/daniellj/DistributedComputing/)
-* [3. Hadoop Architecture](https://github.com/daniellj/DistributedComputing/)
-* [4. MapReduce Operation](https://github.com/daniellj/DistributedComputing/)
+* 1. Introduction
+* 2. Hadoop Platform
+* 3. Hadoop Architecture
+* 4. MapReduce Operation
 * [5. MapReduce - POC](https://github.com/daniellj/DistributedComputing/blob/master/HadoopMapReduce/POC/)
 
 ## Apache Spark ![img](https://github.com/daniellj/DistributedComputing/blob/master/ApacheSpark/Concepts/img/apache_spark_logo.png)

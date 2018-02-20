@@ -70,7 +70,7 @@ The following components are part of the architecture:
 
 - **3.1. SparkContext**: Context represents the **CONNECTION** to a Spark cluster, and can be used to create RDDs, accumulators and broadcast variables on that cluster. For default, only one SparkContext may be active per JVM, but can be removed.
 
-- **3.2. SparkDriver: an application written in Scala, Java, R or Python that uses Spark as a library. You can start one or more jobs in a cluster. He basically start a job, that will be run by WORKERS and managed by the CLUSTER MANAGER (coordinate and control all as parallel operations of the cluster).
+- **3.2. SparkDriver**: an application written in Scala, Java, R or Python that uses Spark as a library. You can start one or more jobs in a cluster. He basically start a job, that will be run by WORKERS and managed by the CLUSTER MANAGER (coordinate and control all as parallel operations of the cluster).
 
 ![img](https://github.com/daniellj/DistributedComputing/blob/master/ApacheSpark/Concepts/img/apache-spark-arch.png)
 
