@@ -115,8 +115,7 @@ Is an immutable distributed collection of objects (read-only). Each RDD is split
 -
 	- **6.2.1. TRANSFORMATIONS** - operation on an RDD's existing, creating a new dataset (lazy operations that return another RDD). Some operations can be inserted into a pipeline created by Spark, chaining the transformations to the execution process, generate performance gain.
 
--
-	- [**Spark Transformations Guide (Oficial Documentation)**](http://spark.apache.org/docs/latest/rdd-programming-guide.html#transformations)
+[**Spark Transformations Guide (Oficial Documentation)**](http://spark.apache.org/docs/latest/rdd-programming-guide.html#transformations)
 
 -
 	-
@@ -230,8 +229,7 @@ Some of the common TRANSFORMATIONS supported:
 -
 	- **6.2.2. ACTIONS** - return a value to the driver program after running a computation on the dataset (map, reduce, etc). Some of the common ACTIONS supported:
 
--
-	- [**Spark Transformations Guide (Oficial Documentation)**](http://spark.apache.org/docs/latest/rdd-programming-guide.html#transformations)
+[**Spark Actions Guide (Oficial Documentation)**](http://spark.apache.org/docs/latest/rdd-programming-guide.html#actions)
 
 <table class="table">
 <tr><th>Action</th><th>Meaning</th></tr>
