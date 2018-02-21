@@ -113,7 +113,15 @@ Is an immutable distributed collection of objects (read-only). Each RDD is split
 ![img](https://github.com/daniellj/DistributedComputing/blob/master/ApacheSpark/Concepts/img/apache-spark-rdd-operations.png)
 
 -
-	- **6.2.1. TRANSFORMATIONS** - operation on an RDD's existing, creating a new dataset (lazy operations that return another RDD). Some operations can be inserted into a pipeline created by Spark, chaining the transformations to the execution process, generate performance gain. Some of the common TRANSFORMATIONS supported:
+	- **6.2.1. TRANSFORMATIONS** - operation on an RDD's existing, creating a new dataset (lazy operations that return another RDD). Some operations can be inserted into a pipeline created by Spark, chaining the transformations to the execution process, generate performance gain.
+
+-
+	-
+		- **6.2.1.1 Types**
+			- Narrow: result of functions as map() and filter() and the data's come from unique partition.
+			- Wide: result of functions as groupByKey() and reduceByKey(), and the data's come from multiple partitions.
+	
+Some of the common TRANSFORMATIONS supported:
 
 <table class="table">
 <tr><th style="width:25%">Transformation</th><th>Meaning</th></tr>
