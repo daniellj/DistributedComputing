@@ -20,7 +20,7 @@ I created this repository for develop my skills with DISTRIBUTED COMPUTING, and 
 
 ### Topics
 <!-- toc -->
-- [1. Introdutction](https://github.com/daniellj/DistributedComputing/blob/master/ApacheSpark/Concepts/Introduction.md#1-introdutction)
+- [1. Introduction](https://github.com/daniellj/DistributedComputing/blob/master/ApacheSpark/Concepts/Introduction.md#1-introdutction)
 - [2. Apache Spark Platform](https://github.com/daniellj/DistributedComputing/blob/master/ApacheSpark/Concepts/Introduction.md#2-apache-spark-platform)
 - [3. Apache Spark Architecture](https://github.com/daniellj/DistributedComputing/blob/master/ApacheSpark/Concepts/Introduction.md#3-apache-spark-architecture)
 - [4. Data Sources and Formats to Consume](https://github.com/daniellj/DistributedComputing/blob/master/ApacheSpark/Concepts/Introduction.md#4-data-sources-and-formats-to-consume)
