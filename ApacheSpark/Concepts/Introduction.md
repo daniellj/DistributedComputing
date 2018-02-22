@@ -227,7 +227,8 @@ Some of the common TRANSFORMATIONS supported:
 </table>
 
 -
-	- **6.2.2. ACTIONS** - return a value to the driver program after running a computation on the dataset (map, reduce, etc). Some of the common ACTIONS supported:
+	- **6.2.2. ACTIONS** - return a value to the driver program after running a computation on the dataset.
+Some of the common ACTIONS supported:
 
 [**Spark Actions Guide (Oficial Documentation)**](http://spark.apache.org/docs/latest/rdd-programming-guide.html#actions)
 
@@ -286,6 +287,13 @@ Some of the common TRANSFORMATIONS supported:
 </tr>
 </table>
 
+-
+	-
+		- **6.2.2.1 Optimization techniques**: result of ACTION functions where the data are loaded in memory RAM or stored on DISK, for reutilization.
+			- Caching
+			- Persistence
+			
+			For more details: https://spark.apache.org/docs/latest/rdd-programming-guide.html#rdd-persistence
 
 Credits:
 
