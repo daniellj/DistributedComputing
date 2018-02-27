@@ -44,6 +44,29 @@ The following components are part of the platform:
 ![img](https://github.com/daniellj/DistributedComputing/blob/master/ApacheSpark/Concepts/img/apache-spark-platform.png)
 
 - **2.1. SparkSQL**: is a Spark module for structured data processing.
+	- **2.1.1. Spark SQL Technical Features**:
+		- Support ETL process.
+		- Dataframes - data structure obtained by the abstraction of computer programming, that allow Spark accelerate Big Data analyzes.
+		- API Data Source - adding an API as a structured data source, allow the connection to be made easier and more comprehensive.
+		- Intern JDBC (Java Database Connection) Server - connection to traditional relational databases
+		- Data Science Functionality - can do preprocessing on relational data structure for machine learning process.
+	- **2.1.2. Spark SQL components**:
+		- **2.1.2.1. DataFrames**
+		- **2.1.2.2. RDD's**
+		- **2.1.2.3. Spark Session**:
+			- They are created to access the features of SparkSQL.
+			- Spark Sessions is established, and after it is possible to create the DataFrames.
+			- A DataFrame can be registered as a temporary table, where it is possible to query about your content (used in the processing of data streams).
+		- **2.1.2.4. SQL Context:
+			- Encapsulates all Apache Spark relational features.
+			- You can create SQL Context from Spark Context.
+		- **2.1.2.5. Hive Context:
+			- Provides a set of functionalities to work with HiveQL, an SQL language for the Hive database (Hadoop database).
+		- **2.1.2.6. Java Database Connection (JDBC) data sources:
+			- Integration interface between the application and the relational database. Set of classes and interfaces APIs written in JAVA, for execution and manipulation of results of SQL statements for any relational database. Each database contains a JDBC driver, which is a connection string, as follows:
+			- (API: DB: Server Name: Port / Database Name) -> jdbc: mysql: // localhost: 3306 / application	
+		- **2.1.2.7. Temporary tables
+			- We can use SQL operations on temporary tables. A query executed in a temporary table returns a dataframe object.
 	
 - **2.2. Spark Streaming**: in this component, Spark receive DATA INGESTION through a variety of sources, and could process this data with complex algorithms and/or high-level functions (map, reduction, join and window). Internally, receives the data in real time and splits it into batches, where these are processed by the Spark Engine, generating the output of this processing , that may be a disk recording on file systems (HDFS), write records to the database, or real-time dashboards.
 
