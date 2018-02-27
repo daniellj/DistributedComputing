@@ -14,7 +14,7 @@ I created this repository for develop my skills with DISTRIBUTED COMPUTING, and 
 - [2. Hadoop Platform]
 - [3. Hadoop Architecture]
 - [4. MapReduce Operation]
-- [5. MapReduce - POC](https://github.com/daniellj/DistributedComputing/blob/master/HadoopMapReduce/POC/)
+- [5. MapReduce - POC]
 
 ## Apache Spark ![img](https://github.com/daniellj/DistributedComputing/blob/master/ApacheSpark/Concepts/img/apache_spark_logo.png)
 
