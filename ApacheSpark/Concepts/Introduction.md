@@ -320,12 +320,14 @@ Some of the common ACTIONS supported:
 
 Credits:
 
-https://spark.apache.org
+- [Apache Spark Documentation](http://spark.apache.org/docs/latest/index.html)
+- [Uber data](https://github.com/fivethirtyeight/uber-tlc-foil-response)
+- [Clash of the Titans(MapReduce x Spark for Large Scale Data Analytics)](http://www.vldb.org/pvldb/vol8/p2110-shi.pdf)
+- [Apache Spark Examples](http://spark.apache.org/examples.html)
+- [DataBricks Training](https://training.databricks.com/visualapi.pdf)
+- [Spark Cheat Sheet](https://mapr.com/ebooks/spark/apache-spark-cheat-sheet.html)
+- [Rklick Solutions (GitHub)](https://github.com/rklick-solutions/spark-tutorial/wiki/Spark-Core#introduction-to-apache-spark)
+- [Mastering Apache Spark](https://jaceklaskowski.gitbooks.io/mastering-apache-spark/)
 
-https://training.databricks.com/visualapi.pdf
 
-https://mapr.com/ebooks/spark/apache-spark-cheat-sheet.html
 
-https://github.com/rklick-solutions/spark-tutorial/wiki/Spark-Core#introduction-to-apache-spark
-
-https://jaceklaskowski.gitbooks.io/mastering-apache-spark/
