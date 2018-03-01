@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head><meta charset="utf-8" />
-<title>IntroductionApacheSpark</title>
+<title>Spark-Introduction</title>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
@@ -11768,7 +11768,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[17]:</div>
+<div class="prompt input_prompt">In&nbsp;[1]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Verificando o contexto em que se encontra a conexão:&#39;</span><span class="p">,</span> <span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">)</span>
@@ -11810,7 +11810,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[16]:</div>
+<div class="prompt input_prompt">In&nbsp;[2]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">list1</span> <span class="o">=</span> <span class="p">[</span><span class="mi">25</span><span class="p">,</span> <span class="mi">35</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">17</span><span class="p">,</span> <span class="mi">23</span><span class="p">,</span> <span class="mi">44</span><span class="p">,</span> <span class="mi">977</span><span class="p">,</span> <span class="mi">75</span><span class="p">,</span> <span class="mi">65</span><span class="p">]</span>
@@ -11834,7 +11834,7 @@ div#notebook {
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>Conversão de uma lista Python para um objeto Spark 
 
-Objeto criado com a função sc.parallelize(): ParallelCollectionRDD[11] at parallelize at PythonRDD.scala:480 
+Objeto criado com a função sc.parallelize(): ParallelCollectionRDD[0] at parallelize at PythonRDD.scala:480 
 
 Tipo do objeto criado &lt;test&gt;: &lt;class &#39;pyspark.rdd.RDD&#39;&gt;
 </pre>
@@ -11884,7 +11884,7 @@ Tipo do objeto criado &lt;test&gt;: &lt;class &#39;pyspark.rdd.RDD&#39;&gt;
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[19]:</div>
+<div class="prompt input_prompt">In&nbsp;[3]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Quantidade de elementos do objeto RDD criado &lt;test&gt;&#39;</span><span class="p">,</span> <span class="n">test</span><span class="o">.</span><span class="n">count</span><span class="p">())</span>
@@ -11911,7 +11911,7 @@ Tipo do objeto criado &lt;test&gt;: &lt;class &#39;pyspark.rdd.RDD&#39;&gt;
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[24]:</div>
+<div class="prompt input_prompt">In&nbsp;[4]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Conteúdo da coleção de elementos do objeto RDD criado &lt;test&gt;:&#39;</span><span class="p">,</span> <span class="n">test</span><span class="o">.</span><span class="n">collect</span><span class="p">())</span>
@@ -11947,7 +11947,7 @@ Tipo do objeto criado &lt;test&gt;: &lt;class &#39;pyspark.rdd.RDD&#39;&gt;
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[72]:</div>
+<div class="prompt input_prompt">In&nbsp;[2]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Criando uma RDD a partir de um arquivo CSV</span>
@@ -11989,7 +11989,7 @@ Tipo do objeto criado &lt;test&gt;: &lt;class &#39;pyspark.rdd.RDD&#39;&gt;
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[69]:</div>
+<div class="prompt input_prompt">In&nbsp;[7]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Quantidade de elementos do objeto RDD criado &lt;test&gt;&#39;</span><span class="p">,</span> <span class="n">sentRDD</span><span class="o">.</span><span class="n">count</span><span class="p">())</span>
@@ -12025,7 +12025,7 @@ Tipo do objeto criado &lt;test&gt;: &lt;class &#39;pyspark.rdd.RDD&#39;&gt;
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[70]:</div>
+<div class="prompt input_prompt">In&nbsp;[8]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Imprimindo as 5 primeiras linahs do RDD criado:&#39;</span><span class="p">)</span>
@@ -12047,7 +12047,7 @@ Tipo do objeto criado &lt;test&gt;: &lt;class &#39;pyspark.rdd.RDD&#39;&gt;
 </div>
 </div>
 
-<div class="output_area"><div class="prompt output_prompt">Out[70]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[8]:</div>
 
 
 <div class="output_text output_subarea output_execute_result">
@@ -12075,7 +12075,7 @@ Tipo do objeto criado &lt;test&gt;: &lt;class &#39;pyspark.rdd.RDD&#39;&gt;
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[85]:</div>
+<div class="prompt input_prompt">In&nbsp;[3]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Transformação de dados no RDD: colocando com letras maiúsculas todos os registros:&#39;</span><span class="p">)</span>
@@ -12101,7 +12101,7 @@ Imprmindo a transformação desejada...
 </div>
 </div>
 
-<div class="output_area"><div class="prompt output_prompt">Out[85]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[3]:</div>
 
 
 <div class="output_text output_subarea output_execute_result">
