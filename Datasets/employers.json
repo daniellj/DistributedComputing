@@ -1,0 +1,5 @@
+ { "nome": "Josias Rebelo", "sexo": "m", "deptid": "1000", "idade": "42", "salario": "7000" }
+ { "nome": "Mauricio Gonheim", "sexo": "m", "deptid": "2000", "idade": "50", "salario": "9500" }
+ { "nome": "Bruno Velasquez", "sexo": "m", "deptid": "1000", "idade": "36", "salario": "6700" }
+ { "nome": "Ananda Tavares", "sexo": "f", "deptid": "1000", "idade": "41", "salario": "9300" }
+ { "nome": "Carlos Maia", "sexo": "m", "deptid": "2000", "idade": "34", "salario": "5500" }
