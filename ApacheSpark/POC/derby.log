@@ -1,13 +1,13 @@
 ----------------------------------------------------------------
-Fri Mar 02 13:58:27 BRT 2018:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.12.1.1 - (1704137): instance a816c00e-0161-e7a6-8c96-00000bd0dab0 
-on database directory C:\Users\whitecube.daniel\Projetos_Daniel\DistributedComputing\ApacheSpark\POC\metastore_db with class loader org.apache.spark.sql.hive.client.IsolatedClientLoader$$anon$1@55e57a61 
-Loaded from file:/C:/Spark/jars/derby-10.12.1.1.jar
+Fri Mar 02 21:45:17 BRT 2018:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.12.1.1 - (1704137): instance a816c00e-0161-e951-f2e6-0000092e32d0 
+on database directory /home/daniellj/Projetos/Github/DistributedComputing/ApacheSpark/POC/metastore_db with class loader org.apache.spark.sql.hive.client.IsolatedClientLoader$$anon$1@265dfcb2 
+Loaded from file:/opt/spark/jars/derby-10.12.1.1.jar
 java.vendor=Oracle Corporation
-java.runtime.version=1.8.0_151-b12
-user.dir=C:\Users\whitecube.daniel\Projetos_Daniel\DistributedComputing\ApacheSpark\POC
-os.name=Windows 7
+java.runtime.version=1.8.0_151-8u151-b12-0ubuntu0.16.04.2-b12
+user.dir=/home/daniellj/Projetos/Github/DistributedComputing/ApacheSpark/POC
+os.name=Linux
 os.arch=amd64
-os.version=6.1
+os.version=4.4.0-116-generic
 derby.system.home=null
 Database Class Loader started - derby.database.classpath=''
