@@ -26,7 +26,11 @@ I created this repository for develop my skills with DISTRIBUTED COMPUTING, and 
 - [4. Data Sources and Formats to Consume](https://github.com/daniellj/DistributedComputing/blob/master/ApacheSpark/Concepts/Introduction.md#4-data-sources-and-formats-to-consume)
 - [5. Deploy Mode](https://github.com/daniellj/DistributedComputing/blob/master/ApacheSpark/Concepts/Introduction.md#5-deploy-mode)
 - [6. RDD's - Resilient Distributed Datasets](https://github.com/daniellj/DistributedComputing/blob/master/ApacheSpark/Concepts/Introduction.md#6-rdds---resilient-distributed-datasets)
-- [7. Apache Spark - POC](https://github.com/daniellj/DistributedComputing/blob/master/ApacheSpark/POC/)
+  - [6.1. RDD - Transformations And Actions](https://github.com/daniellj/DistributedComputing/blob/master/ApacheSpark/RDDTransformationsAndActions/)
+  - [6.2. Pair RDD, Acumulators, Broadcast And_Partitions](https://github.com/daniellj/DistributedComputing/blob/master/ApacheSpark/PairRDDAcumulatorsBroadcastAndPartitions/)
+- [7. Spark SQL (and NoSQL)](https://github.com/daniellj/DistributedComputing/blob/master/ApacheSpark/SparkSQL/)
+- [8. Spark Streaming](https://github.com/daniellj/DistributedComputing/blob/master/ApacheSpark/SparkStreaming/)
+- [9. Spark MLLib](https://github.com/daniellj/DistributedComputing/blob/master/ApacheSpark/SparkMLLib/)
 
 ### Datasets
 <!-- toc -->
